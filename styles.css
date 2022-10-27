@@ -1,0 +1,184 @@
+html {
+  /* Makes 1 rem = 10px */
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  position: sticky;
+  top: 0rem;
+  width: 100%;
+  z-index: 999;
+  background: #100f0f;
+  color: #f1f1f1;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+}
+
+#gym-name {
+  font-family: "Kanit", sans-serif;
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+#gym-year {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.4rem;
+  display: block;
+  text-align: center;
+}
+#nav-menu {
+  list-style: none;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+}
+
+/* Removes default text decoration for anchor tags within the nav bar */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item {
+  margin: 1.8rem;
+}
+
+h2 {
+  margin: 5rem 0;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 30rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  /* Background image by Mark Adriane on UnSplash.com */
+  background-image: url(images/boxing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: grayscale(70%);
+}
+
+#form #email {
+  height: 2rem;
+  width: 20rem;
+  margin: 1rem auto;
+  font-family: "Lato", sans-serif;
+}
+
+#form #submit {
+  margin: 1rem auto;
+  height: 3rem;
+  width: 13rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  background-color: #f1c40f;
+}
+
+#form #submit:hover {
+  background-color: #fffe7a;
+}
+
+#schedule {
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+#video {
+  text-align: center;
+}
+
+#pricing {
+  display: flex;
+}
+
+.plan {
+  text-align: center;
+  margin: 0 5%;
+  padding: 1rem 4rem;
+  width: 33%;
+  list-style: none;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan .plan_name {
+  font-size: 4rem;
+}
+
+.plan .plan_price {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 2px black solid;
+}
+
+.plan .feature_list {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.plan .feature_list .feature {
+  margin: 1.5rem 0;
+}
+
+.plan .feature_list .feature:last-of-type {
+  margin-bottom: 3rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 0.5rem 0 1rem 0;
+  font-family: "Lato", sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+}
+
+#contact_info {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+/* Mobile View */
+@media only screen and (min-width: 320px) {
+  #gym-name {
+    font-size: 2rem;
+    padding-left: 0rem;
+    text-align: center;
+  }
+  #nav-menu {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+  }
+  #schedule {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  iframe {
+    width: 48rem;
+    height: 27rem;
+  }
+}
