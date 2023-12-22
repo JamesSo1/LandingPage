@@ -1,4 +1,6 @@
-# Project Description
+# Documentation Page
+
+## Project Description
 
 Welcome to the landing page for James' Boxing Gym! This project features a simple and mobile-compatible static website designed to showcase the gym's information.
 
