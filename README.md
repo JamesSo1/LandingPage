@@ -1,8 +1,8 @@
-# Documentation Page
+# Boxing Gym Landing Page
 
-## Project Description
+## Description
 
-Welcome to the landing page for James' Boxing Gym! This project features a simple and mobile-compatible static website designed to showcase the gym's information.
+Welcome to the landing page for James' Boxing Gym(not a real gym)! This project features a simple and mobile-compatible static website designed to showcase the gym's information.
 
 ## Features
 
